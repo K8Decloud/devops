@@ -1,9 +1,0 @@
----
-- name: display size
-  hosts: localhost
-  tasks: 
-    - name: display the size
-      shell: df /home/siddharth/Desktop
-      register: space
-    - debug: 
-        var: space.stdout_lines
