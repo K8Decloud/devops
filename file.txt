@@ -8,3 +8,5 @@ RUN mkrdir -p /cat/home
 CP . /cat/home
 
 CMD["node", "server.js"]
+
+docker build -t my-app:1.0 .
