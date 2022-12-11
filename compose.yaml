@@ -1,0 +1,11 @@
+version: '2'
+services:
+  mongodb:
+    image:mongodb
+  nginx:
+    image:nginx
+    ports:
+      -8080:80
+    environment:
+      -hi=hi
+      -hihi=hihi
