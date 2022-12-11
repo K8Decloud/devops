@@ -1,0 +1,10 @@
+FROM node
+
+ENV JJ=admin \
+    kk=pass
+    
+RUN mkrdir -p /cat/home
+
+CP . /cat/home
+
+CMD["node", "server.js"]
