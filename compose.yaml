@@ -9,3 +9,6 @@ services:
     environment:
       -hi=hi
       -hihi=hihi
+      
+      
+docker-compose -f file.yaml up
